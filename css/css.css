@@ -1,0 +1,101 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+ 
+.container {
+  display: flex;
+}
+
+.category-list {
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  background-color: #D8EADB;
+  font-family: Arial; /* Change font family */
+}
+
+.category-list h2 {
+  margin-top: 0;
+  font-size: 35px; /* Increase font size */
+}
+
+.category-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.category-list li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  font-size: 25px; /* Increase font size */
+}
+
+.category-list li:last-child {
+  border-bottom: none;
+}
+
+.gallery {
+  flex: 2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #EBF4ED; /* Set background color */
+  font-family: Arial, sans-serif;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.tool {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.tool img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.tool h3 {
+  margin-top: 0;
+}
+
+.book-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none; /* Remove default underline */
+  border-radius: 5px;
+}
+
+.book-button:hover {
+  background-color: #45a049; /* Darker green background on hover */
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:focus, a:visited {
+  font-weight:bold;
+  color:black;
+}
+
+#header {
+  width: 100%;
+}
+
+#footer {
+  width: 100%;
+  margin-top: 40px;
+}
