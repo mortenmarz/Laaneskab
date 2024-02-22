@@ -1,0 +1,40 @@
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: #2faa3a;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.text {
+  flex: 1;
+  color: #FFFFFF; 
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.text h2 {
+  font-size: 50px;
+}
+
+.text p {
+  font-size: 20px;
+}
+
+.image {
+max-width: 20%; 
+ padding: 30px;
+ padding-right: 100px;
+}
+
+.image img {
+  width: 100%; 
+  height: auto; 
+}
+
+
